@@ -63,7 +63,7 @@ Op pagina's https://prod-dictu.forumstandaardisatie.nl/thema/wat-betekent-dit-vo
 
 ## 2.4.1 Blokken omzeilen
 
-Zorg ervoor dat blinde bezoekers en toetsenbordgebruikers blokken herhalende content kunnen overslaan, zodat zij direct bij de hoofdcontent kunnen komen. Denk bij blokken herhalende content aan alles dat zich op meerdere pagina's herhaalt: menu's, een zoekveld, logo etc. De beste manier om het overslaan van herhalende content mogelijk te maken, is door bovenaan de pagina een skiplink te bieden die direct naar de hoofdcontent leidt. Zorg ervoor dat de link zichtbaar wordt, wanneer deze met het toetsenbordfocus ontvangt. Zie onze website als voorbeeld: www.accessibility.nl
+Zorg ervoor dat blinde bezoekers en toetsenbordgebruikers blokken herhalende content kunnen overslaan, zodat zij direct bij de hoofdcontent kunnen komen. Denk bij blokken herhalende content aan alles dat zich op meerdere pagina's herhaalt: menu's, een zoekveld, logo etc. De beste manier om het overslaan van herhalende content mogelijk te maken, is door bovenaan de pagina een skiplink te bieden die direct naar de hoofdcontent leidt. Zorg ervoor dat de link zichtbaar wordt, wanneer deze met het toetsenbordfocus ontvangt. Zie onze website als voorbeeld: www.accessibility.nl.
 
 ## 2.4.2 Paginatitel
 

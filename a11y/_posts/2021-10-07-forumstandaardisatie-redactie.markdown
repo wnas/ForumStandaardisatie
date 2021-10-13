@@ -6,6 +6,9 @@ categories: forumstandaardisatie redactie
 ---
 # 1.1.1 niet tekstuele content
 
-Op pagina https://prod-dictu.forumstandaardisatie.nl/ staat de afbeelding ‘Skyline van een stad’. Deze afbeelding is decoratief en moet genegeerd kunnen worden door hulpsoftware. Dit kan door een leeg tekstalternatief `alt=””` te gebruiken.
+Op pagina [https://forumstandaardisatie.nl/](https://forumstandaardisatie.nl/) staat de afbeelding ‘Skyline van een stad’. Deze afbeelding is decoratief en moet genegeerd kunnen worden door hulpsoftware. Dit kan door een leeg tekstalternatief `alt=””` te gebruiken.
 
-Op pagina https://prod-dictu.forumstandaardisatie.nl/thema staan zes decoratieve icoontjes boven de koppen naar de verschillende thema’s. Deze afbeeldingen zijn decoratief en hebben een leeg tekstalternatief nodig. Op dit moment hebben twee afbeeldingen wel een tekstalternatief en de andere vier niet. Deze inconsistente oplossing is sowieso onvoldoende.
+WN - alt attributen worden voorgelezen door screenreaders en zouden ingevuld moeten worden als de afbeelding informatie overdraagt en alleen dan. Een leeg alt attribuut zorgt ervoor dat de screenreader het plaatje als het ware overslaat, zo krijgt men alleen de noodzakelijke informatie
+
+Op pagina [https://forumstandaardisatie.nl/thema](https://forumstandaardisatie.nl/thema) staan zes decoratieve icoontjes boven de koppen naar de verschillende thema’s. Deze afbeeldingen zijn decoratief en hebben een leeg tekstalternatief nodig. Op dit moment hebben twee afbeeldingen wel een tekstalternatief en de andere vier niet. Deze inconsistente oplossing is sowieso onvoldoende.
+

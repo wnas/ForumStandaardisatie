@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Toegankelijkheid bij Forum voor Standaardisatie
+# Toegankelijkheid bij Forum voor Standaardisatiehh
 
 Voor een aantal websites van forum Standaardisatie zijn toegankelijkheidsonderzoeken gedaan.
 
