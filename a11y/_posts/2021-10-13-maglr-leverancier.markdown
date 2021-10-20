@@ -79,7 +79,7 @@ Op pagina [digitale toegankelijkheid](https://magazine.forumstandaardisatie.nl/d
 
 WN - kijk op [deze pagina](https://contrast-ratio.com/) wat goede contrasten zijn...
 
-## 1.4.4 Herschalen van tekst {#1.4.4}
+## 1.4.4 Herschalen van tekst
 
 Op pagina [standaard samenwerken](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/cover) staat rechtsonder de knop “Naar overzicht” om terug te keren naar de homepage. Indien deze pagina herschaald wordt naar 200% zoom op de testresolutie 1024x768 is deze knop niet meer beschikbaar. Dit type probleem geldt ook voor de overige pagina's van de verschillende magazines zoals [meting informatieveiligheidstandaarden begin 2020](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/cover) en [digitale toegankelijkheid in de praktijk](https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale-toegankelijkheid).
 
@@ -89,7 +89,7 @@ Op pagina [bevindingen](https://magazine.forumstandaardisatie.nl/meting-informat
 
 ## 1.4.10 Reflow
 
-Bij succescriterium 1.4.4 is beschreven dat er verlies van content en/of functionaliteit is bij het inzoomen met 200% bij een resolutie van 1024x768 pixels. Dezelfde problemen treden ook op bij dit succescriterium, dat is getest bij een breedte van 320 pixels (of bij een breedte van 1280 pixels en 400% ingezoomd). Deze problemen zijn hier niet nogmaals beschreven, zie voor de beschrijving succescriterium [1.4.4](1.4.4). Bij het oplossen van deze problemen moet er dus op gelet worden dat dit ook gaat voldoen voor dit succescriterium. https://magazine.forumstandaardisatie.nl/
+Bij succescriterium 1.4.4 is beschreven dat er verlies van content en/of functionaliteit is bij het inzoomen met 200% bij een resolutie van 1024x768 pixels. Dezelfde problemen treden ook op bij dit succescriterium, dat is getest bij een breedte van 320 pixels (of bij een breedte van 1280 pixels en 400% ingezoomd). Deze problemen zijn hier niet nogmaals beschreven, zie voor de beschrijving succescriterium 1.4.4. Bij het oplossen van deze problemen moet er dus op gelet worden dat dit ook gaat voldoen voor dit succescriterium. https://magazine.forumstandaardisatie.nl/
 
 Op pagina [tijdlijn](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/tijdlijn) is het jaartal bovenaan 2020, maar als deze pagina bekeken wordt op een weergave met 320 CSS-pixels is dat jaartal 2018. Ook vallen in deze weergave van de tijdlijn twee punten (“2020 Alle overheidswebsites verplicht toegankelijk” en “2019 Kamerbrief”) weg.
 
@@ -122,10 +122,113 @@ Dit probleem komt ook voor op pagina's [waarom standaardisatie](https://magazine
 
 Let op: op het moment dat deze balk wordt opengeklapt met het toetsenbord (via de knop “Open pagina navigatie”) in plaats van met de hover van de muis komt een alternatieve versie van deze content in beeld. Die pop-up is wel te “Sluiten” met de escape-toets.
 
-
-
 Op pagina [meting informatiestandaarden begin 2020](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/cover) valt de koptekst over de link om de PDF te downloaden heen.
 
-Op pagina https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/
-aanbestedingen is de tekst in de legenda niet meer te lezen.
-Op pagina https://magazine.forumstandaardisatie.nl/meting- informatieveiligheidstandaarden-begin-2020/bevindingen is een deel van de oranje kop niet meer te lezen, het gaat om de tekst “medio 2020”. Dit type probleem komt ook voor op andere pagina's zoals https://magazine.forumstandaardisatie.nl/meting- informatieveiligheidstandaarden-begin-2020/adoptie-van-de-webstandaarden en https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale- toegankelijkheid. Verdere voorbeelden van problemen die ontstaan als de gebruiker de tekstafstanden aanpast naar bovenstaande waarden worden niet gegeven.
+Op pagina [aanbestedingen](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/aanbestedingen) is de tekst in de legenda niet meer te lezen.
+
+Op pagina [bevindingen](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/bevindingen) is een deel van de oranje kop niet meer te lezen, het gaat om de tekst “medio 2020”. Dit type probleem komt ook voor op andere pagina's zoals [adoptatie van de web standaarden](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/adoptie-van-de-webstandaarden) en [digitale toegankelijkheid](https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale-toegankelijkheid). 
+
+Verdere voorbeelden van problemen die ontstaan als de gebruiker de tekstafstanden aanpast naar bovenstaande waarden worden niet gegeven.
+
+## 2.1.1 Toetsenbord
+
+
+Op pagina [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) is het niet mogelijk om de toetsenbordfocus op de bediening onderaan te zetten.
+
+Op [alle pagina's](https://magazine.forumstandaardisatie.nl/) staat linksonder een link zonder href, doordat deze link ook niet werkt met de muis is dat niet fout onder de eisen van dit succescriterium. 
+
+## 2.2.2 geen toetsenbordval
+
+Op pagina [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) is een toetsenbordval aanwezig. Het is niet mogelijk om de bediening van de website via de knoppen rechtsonder te bereiken. De toetsenbordfocus zit vast in de inhoud van deze pagina.
+
+## 2.1.4 enkel teken sneltoetsen
+
+Op pagina [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) staat onder de kop “Informatiebeveiliging” een video die in beeld komt na het activeren van de knop “Bekijk de video over informatiebeveiliging”. Deze YouTube- video is te bedienen met enkel teken sneltoetsen zoals “k” en “f”. Deze bediening van YouTube-video’s voldoet niet aan de eisen van dit succescriterium. Voor de YouTube- videospeler is dit probleem op te lossen door de parameter `disablekb=1` te gebruiken. Op [deze pagina](https://developers.google.com/youtube/player_parameters#disablekb) staat meer informatie over hoe deze parameter werkt. Het gebruik van deze parameter heeft geen nadelige effecten voor andere succescriteria.
+
+## 2.2.2 Pauzeren, stoppen, verbergen
+
+Op pagina [uitleg](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/uitleg) beweegt de oranje knop “Open video”. Deze bewegende content voldoet niet aan de eisen van dit succescriterium. 
+
+De bewegende content op pagina's [bevindingen](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/bevindingen) (Het vierkantje naast de tekst “De streefbeeldafspraken”), [digitale toegankelijkhei](https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale-toegankelijkheid) (De bewegende muis en de bewegende mobiel), [uitleg](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/uitleg) en [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) voldoen ook niet aan de eisen van dit succescriterium.
+
+## 2.4.1 Blokken omzeilen
+
+WN - skip navigatie
+
+Er is geen mechanisme beschikbaar om blokken content die op meerdere webpagina's worden herhaald te omzeilen. In de meeste gevallen wordt hiervoor een skiplink gebruikt. Een dergelijke link staat aan het begin van de focus volgorde en hoeft alleen zichtbaar te zijn als deze toetsenbordfocus heeft. Bij activatie wordt de toetsenbordfocus dan verplaatst naar het begin van de unieke content op die pagina. Op die manier is het voor toetsenbordgebruikers mogelijk om de herhalende links aan het begin van de focus volgorde te omzeilen.
+Dit probleem komt alleen voor op de pagina's die geen onderdeel zijn van een magazine zoals https://magazine.forumstandaardisatie.nl/, https://magazine.forumstandaardisatie.nl/?category=monitor_open_standaarden en https://magazine.forumstandaardisatie.nl/?category=speciale_uitgaven. Op de overige pagina's is het aanbieden van een methode om herhalende content te omzeilen niet nodig omdat er daar geen herhalende (focusbare) content voor de unieke content staat.
+
+## 2.4.3 Focus volgorde
+
+Op pagina [tijdlijn](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/tijdlijn) heeft de toetsenbordfocus een aparte volgorde. De toetsenbordfocus komt als eerste op de knop “Ga direct naar oprichting in 2006”. Daarna gaat deze naar het vijfde punt in de tijdlijn “2018 Wet digitale overheid”. Daarna komt de focus op het tweede bericht en daarna komt de toetsenbordfocus op de links van het derde bericht. Daarna gaat de focus naar de knop “blok02” bij de video “Veilige e-mailcoalitie Nederland”. De verschillende onderdelen van de tijdlijn hebben een verschillende verticale positie die informatie over de volgorde bevat. De relatieve positie waarin de verschillende links toetsenbordfocus krijgen bevat informatie deze afwijkende volgorde heeft invloed op de betekenis van de links. Hierboven is alleen het begin van de focus volgorde op deze pagina beschreven op deze pagina zijn meer problemen met de focus volgorde aanwezig. Soortgelijke problemen met de focus volgorde komen ook voor op pagina [digitale toegankelijkheid](https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale-toegankelijkheid). Het advies is om de focus volgorde en de visuele volgorde zoveel mogelijk overeen te laten komen.
+
+Op pagina [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) opent de knop “Bekijk de video over informatiebeveiliging” een pop-up die de onderliggende pagina verbergt. Dergelijke vensters worden lightboxen genoemd (De term modal wordt ook gebruikt). Bij het openklappen van een lightbox gelden aanvullende eisen voor de focus volgorde. De toetsenbordfocus mag niet (zoals nu wel kan) op de onderliggende pagina komen zolang de lightbox open staat. Hiernaast moet bij het annuleren of sluiten van een lightbox de toetsenbordfocus op een logische plaats landen. In dit geval is dat terug op de knop die deze lightbox ook activeerde. Op die manier kan een gebruiker na het sluiten gewoon verder navigeren op deze pagina. Dit type probleem geldt ook voor de lightboxen op andere pagina's zoals die op [tijdlijn](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/tijdlijn) en [uitleg](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/uitleg).
+
+Op pagina [bevindingen](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/bevindingen) komt de toetsenbordfocus na het sluiten van “De streefbeeldafspraken” niet terug op de knop “De streefbeeldafspraken” die deze lightbox ook activeerde. Deze content telt als lightbox door het gebruikte gedrag van de toetsenbordfocus als de betreffende tabel in beeld staat. Als deze content niet als lightbox geïnterpreteerd zou worden is er een tweede probleem met succescriterium 2.1.2: Toetsenbordval.
+
+## 2.4.4 linkdoel
+
+Op [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) staan naast de kop “Informatiebeveiliging” meerdere links. Het gaat om de link in html en om de WAI-ARIA links. Deze links verwijzen naar nos.nl. Hulpsoftware is niet in staat om dat doel te bepalen. Deze links hebben geen namen die beschikbaar zijn voor hulpsoftware.
+
+Links kunnen maar op enkele manieren context krijgen met andere content. Een link die onder een kop of tekst staat heeft niet automatisch context met die bovenstaande content. Op pagina [tijdlijn](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/tijdlijn) veroorzaakt dit veel problemen. Bijvoorbeeld de links “Best practices” en “New image (copy)” hebben geen context met elkaar en geen context met de bovenstaande en onderstaande content. Dit geldt dus ook voor de link “New image (copy2)”. Het linkdoel van de link “Webinar Digitoegankelijkheid: 'Zijn wij er als overheid klaar voor?'” is dan weer wel te bepalen. Twee van de vier links onder “Alle overheidswebsites verplicht toegankelijk” voldoen dus wel, maar de links “New image (copy)” en “New image (Copy) (copy)” voldoen niet. Het linkdoel van een link als “Bekijk nieuwsartikel” is bijvoorbeeld ook niet te bepalen, omdat niet duidelijk is om welk nieuwsartikel het gaat. “op Rijksoverheid.nl” en “op officiëlebekendmakingen.nl” voldoen samen met “New image” en “New image (Copy)” ook niet. Verdere voorbeelden op deze pagina worden niet gegeven.
+
+Op pagina [afsluiting](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/afsluiting1) staan onder de kop “Hulp nodig of meer informatie?” vier afbeeldingen van tekst die ook als link naar de homepage werken. Het linkdoel van deze links is voor alle gebruikers onduidelijk en daarom niet fout onder dit succescriterium. Het advies is om dit wel te verbeteren.
+
+## 2.4.7 focus zichtbaar
+
+Door het vreemde gedrag van de toetsenbordfocus volgorde op pagina
+[waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) komt de toetsenbordfocus op onderdelen te staan die buiten beeld staan. Die onderdelen zijn niet in beeld te zetten door op de normale manier verticaal te scrollen. Om die onderdelen moet de knoppen met de pijlen omlaag en omhoog gebruikt worden. De toetsenbordfocus kan hierdoor op elementen komen die niet in beeld te zetten zijn zonder de toetsenbordfocus weer van deze onderdelen af te halen. Het mag dus noodzakelijk zijn om verticaal te scrollen om het onderdeel waar de toetsenbordfocus op staat te vinden, maar door de scrollbaarheid van de pagina aan te passen werkt die zoektechniek niet zoals verwacht mag worden.
+
+Op pagina [tijdlijn](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/tijdlijn) is de locatie van de toetsenbordfocus meerdere keren niet zichtbaar. De positie van de toetsenbordfocus is te bepalen als deze op de knop “Ga direct naar oprichting in 2006” staat. Daarna is de positie van de focus twaalf keer niet te bepalen voordat deze op de knop “blok02” komt. Tussen de videoblokken is de focus twee keer niet zichtbaar en na het tweede videoblok is de toetsenbordfocus 21 keer niet te bepalen voordat deze op de knop “Vorige pagina” weer zichtbaar is.
+
+Op [afsluiting](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/afsluiting1) komt de toetsenbordfocus als eerste op een link waarvan de naam “shutterstock_39757475...” met aria-hidden=”true” is verborgen voor hulpsoftware. De toetsenbordfocus op deze link is niet zichtbaar.
+
+Op pagina [aanbestedingen](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/aanbestedingen) is een soortgelijk probleem aanwezig. Daar komt de toetsenbordfocus als eerste op de knop “Open video”, terwijl er op deze pagina geen video staat.
+
+Op pagina [adoptie van de webstandaarden](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/adoptie-van-de-webstandaarden) staan in het staafdiagram vijf knoppen zonder naam aan het begin van de toetsenbord focus volgende. De toetsenbordfocus op deze knoppen is niet zichtbaar.
+
+Op pagina [digitale toegankelijkheid](https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale-toegankelijkheid) komt de toetsenbordfocus onzichtbaar op de links “praktijkcases digitaal toegankelijk publiceren” en “Pleio community website voor digitale toegankelijkheid”.
+
+## 2.5.2 Aanwijzerannulering
+
+Op pagina [tijdlijn](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/tijdlijn) heeft de knop “blok02” en de knop “blok04” geen aanwijzerannulering bij het aanklikken van de tekst onder het screenshot van de video. Na het aanklikken (down-event) is het niet meer mogelijk om te voorkomen dat de video begint af te spelen.
+
+## 2.5.3 label in naam
+
+Op [bevindingen](https://magazine.forumstandaardisatie.nl/meting-informatieveiligheidstandaarden-begin-2020/bevindingen) staat een afbeelding die is opgemaakt als knop. Deze knop heeft geen naam en bevat de zichtbare tekst “Lees verder”. De naam van deze knop moet die tekst bevatten om te voldoen aan dit succescriterium. De alt van de img is niet geldig als naam omdat deze img geen afbeelding meer is voor hulpsoftware. De eigenschappen van de afbeelding zijn overschreven door WAI-ARIA te gebruiken. De knop met de tekst “Terug” heeft hetzelfde probleem. Dit type probleem komt meer voor bijvoorbeeld ook op pagina [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie.)
+
+Op pagina [digitale toegankelijkheid](https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale-toegankelijkheid) is veelvuldig gebruik gemaakt van aria-label attributen om knoppen een andere naam te geven. De zichtbare tekst op de knop moet terugkomen in die waarden om te voldoen aan de eisen van dit succescriterium. Het gaat bijvoorbeeld om de “Lees meer” knop onder de kop “Één op de vijf” met het aria-label “Open popup één op de vijf”. Een suggestie is om een aria-label in de vorm “Lees meer over ...” te gebruiken. In dit voorbeeld wordt het label dan “Lees meer over één op de vijf”. Let op dit geldt ook voor de verschillende “Lees meer” links op deze pagina.
+
+## 3.3.1 Bij focus
+
+Op pagina [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) is wordt de toetsenbordfocus verplaatst als deze op de bediening onderaan komt. Dit gedrag zorgt ervoor dat niet alle onderdelen op deze pagina bedienbaar zijn met het toetsenbord en zorgt er ook voor dat er een toetsenbordval aanwezig is op deze pagina. Als de toetsenbordfocus op de knop “Vorige pagina” komt te staan wordt deze automatisch verplaatst naar een ander element. Dit verplaatsen van de toetsenbordfocus geldt als contextwijziging en is onder de eisen van dit succescriterium niet toegestaan.
+
+## 4.1.1 parsen
+
+Op [pagina](https://magazine.forumstandaardisatie.nl/) staan drie knoppen met daarin een div-element. Het is niet toegestaan om een div-element te nesten in een openstaande button-element, het gebruik van bijvoorbeeld span is hier wel toegestaan. Dit type probleem komt voor op alle pagina's van de steekproef.
+
+Op pagina [afsluiting](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/afsluiting1) staan twee koppen met daarin een p-element genest. Het nesten van een p-element in een koptekst zoals h1 of h2 is niet toegestaan. Dit type probleem komt ook voor op pagina's zoals [aanbestedingen](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/aanbestedingen) en [digitale toegankelijkheid](https://magazine.forumstandaardisatie.nl/digitale-toegankelijkheid-in-de-praktijk/digitale-toegankelijkheid). Dit zijn enkel voorbeelden dit komt meer voor.
+
+Op pagina [monitor open standaarden 2019](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/) uitleg staan drie WAI-ARIA knoppen (role=”button”). Het is niet toegestaan om knoppen te nesten binnen knoppen. De html button-elementen zijn door dit verkeerd gebruik van WAI- ARIA rollen niet goed genest.
+
+WN - valideer je code als onderdeel van je bouwprocess.
+
+## 4.1.2 Naam, rol, waarde
+
+Op [standaard samenwerken](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/cover) staat linksonder een link met het logo Forum Standaardisatie en de naam “Bezoek website:”. Deze link heeft geen href en daardoor onder de eisen van dit succescriterium geen waarde. Dit type probleem komt ook op andere pagina's voor zoals [afsluiting](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/afsluiting1) en [monitor open standaarden](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/cover) .
+
+Het volgende is niet fout, maar kan wel verbeterd worden:
+
+Op pagina [magazine](https://magazine.forumstandaardisatie.nl/) is een WAI-ARIA tablist gebruikt die aan de eisen van dit succescriterium voldoet. Het probleem met deze component van de gebruikersinterface is dat hier niet de standaard bediening met het toetsenbord is gebruikt, dit maakt het gebruik van dit type element hier meer complex en niet consistent. Op pagina [tabpanel](https://www.w3.org/TR/wai-aria-practices-1.2/#tabpanel) staat onder de kop “Keyboard Interaction” meer informatie over hoe deze bediening zou moeten werken om goed toegankelijk te zijn. Voor de duidelijkheid: dit aanpassen is niet verplicht, het gaat hier om een suggestie om de bediening te verbeteren voor gebruikers die naast hulpsoftware (zoals een screenreader) ook afhankelijk zijn van het gebruik van het toetsenbord. Hierbij is het advies ook om het menu rechtsonder op pagina's zoals [standaard samenwerken](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/cover) op een soortgelijke manier vorm te geven zodat de bediening consistent is over alle pagina's, let daar wel op met de extra knop “Naar overzicht”.
+
+Op pagina [standaard samenwerken](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/cover) staat de knop “Open pagina navigatie” midden onderaan. Op het moment dat de aanvullende content in beeld komt als de muis op deze knop staat wordt de toestand (aria-expanded) niet aangepast naar “true”. Het advies is om de twee verschillende overzichten samen te voegen tot één variant. Dit type probleem komt op meerdere pagina's voor. Dit succescriterium geldt voor alle componenten van de gebruikersinterface en dus ook voor onderdelen die alleen werken voor muisgebruikers.
+
+Op pagina [waarom standaardisatie](https://magazine.forumstandaardisatie.nl/standaard-samenwerken/waarom-standaardisatie) staan knoppen die aanvullende content in beeld zetten na activatie. Deze knoppen hebben een toestand zoals aria-expanded nodig die aangeeft of een knop op dit moment actief is of niet. Het gaat om de knoppen onder de kop “Waarom standaardisatie”. De knop “Bekijk de video over informatiebeveiliging” zet een lightbox in beeld als deze wordt geactiveerd. Doordat deze knop niet beschikbaar is als de video actief is is het instellen van twee verschillende toestanden niet noodzakelijk. Het aankondigen dat deze knop een lightbox in beeld zet is wel een eigenschap die gegeven moet worden. Dit kan door aria-hashpopup=”dialog” te gebruiken. Andere oplossingen voor deze problemen zijn mogelijk, er kan bijvoorbeeld ook gebruik gemaakt worden van een visueel verborgen teksten om deze toestanden en eigenschap aan hulpsoftware te presenteren. Deze typen problemen komen ook voor op pagina [uitleg](https://magazine.forumstandaardisatie.nl/monitor-open-standaarden-2019/uitleg).
+
+## 4.1.3 status berichten
+
+Op alle pagina's is de zoekfunctie te bereiken. Bij het uitvoeren van een zoekopdracht komt het aantal resultaten of de tekst “Geen resultaten gevonden” in beeld. Dit zijn beide statusberichten die iets zeggen over de uitkomst van de uitgevoerde zoekopdracht. Deze informatie moet gepresenteerd kunnen worden aan hulpsoftware. Deze informatie komt in beeld zonder dat de toetsenbordfocus verplaatst wordt. 
+
+Er zijn verschillende opties mogelijk. Een hiervan is om de statusbericht-tekst een tabindex=”-1” te geven en na het zoeken de toetsenbordfocus op die tekst te zetten zodat die wordt gepresenteerd. 
+
+Ook is het mogelijk om WAI-ARIA te gebruiken. Hier kan dan aria-live=”polite” of role=”status” gebruikt worden om het resultaat aan te geven let er wel op dat het element met dit attribuut in de DOM staat bij het laden van de pagina zodat hulpsoftware weet waar een statusbericht kan verschijnen. Op pagina's https://www.w3.org/WAI/WCAG21/Understanding/status-messages en https://www.w3.org/WAI/WCAG21/Techniques/failures/F103 staat meer informatie over hoe de techniek met focus verplaatsen moet werken en meer informatie over hoe WAI- ARIA gebruikt kan worden om dit op te lossen als de focus niet verplaatst wordt.

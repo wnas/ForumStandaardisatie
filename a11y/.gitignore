@@ -3,3 +3,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+*node_modules/*
+/Users/wnas/workspace/ForumStandaardisatie/presentations/a11y-a/slides/node_modules
