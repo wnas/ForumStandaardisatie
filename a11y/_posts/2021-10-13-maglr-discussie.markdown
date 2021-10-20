@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Maglr - discussie punten"
+title:  "Maglr - discussiepunten"
 date:   2021-10-13 11:20:14 +0200
 categories: maglr discussie
 ---

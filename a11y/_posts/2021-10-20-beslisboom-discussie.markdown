@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Beslisboom - acties leverancier"
+title:  "Beslisboom - discussiepunten"
 date:   2021-10-20 09:20:14 +0200
-categories: beslisboom leverancier
+categories: beslisboom discussie
 ---
 
 # Discussie
