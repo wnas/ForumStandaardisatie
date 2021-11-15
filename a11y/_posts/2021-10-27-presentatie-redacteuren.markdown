@@ -49,7 +49,7 @@ Ik las ooit de hobbit voor aan m'n jongste zoon, toen 5 nu groter dan ik. Het bo
 
 Een goed gestructureerde tekst is goed voor screenreaders, maar helpt eigenlijk iedereen.
 
-## Presentatie: kleuren en contrast.
+## Presentatie: kleuren ,contrast en meer.
 
 Als je je goedgeschreven, goedgestructureerde tekst laat vormgeven, dan kom je een potentiele hobbel tegen. De vormgever...
 
@@ -71,5 +71,23 @@ Dus kleuren zijn anders, kijk op je scherm hoe het eruit ziet. Sterker nog, kijk
 
 Contrast is belangrijk, je kunt het gebruiken om ervoor te zorgen dat mensen je content goed of juist minder goed kunnen lezen. Voor contrast is het scherm heel belangrijk, maar misschien nog belangrijker, waar is het scherm. De ontwerper zal op een mooi kantoor zitten waar de zon niet op zijn gecalibreerde scherm schijnt. De lezer staat misschien wel met z'n oude mobiel op de trein te wachten in de volle zon.
 
-De omgeving en het scherm, niet zo voorspelbaar
+De omgeving en het scherm, niet zo voorspelbaar.
+
+Wat nog veel erger is is dat de gebruiker z'n eigen instellingen kan gebruiken. Iets vervelends als hoog contrast instellingen op z'n telefoon. <span lang="en">Dark mode</span> op z'n computer en nog meer van dat soort dingen.
+
+### Schermgrootte 
+
+Het leuke van ontwerpen zoals ik het vroeger geleerd heb op de kunstacademie is dat het voor Print was. Netjes en duidelijk, als je met drukkers kon praten. Je maakte iets voor een A4 en het was overal zo groot en niets anders. Op het web is het allemaal niet zo netjes. Je hebt een veelvoud aan schermformaten en verhoudingen.
+
+Dit zorgt voor een grote variatie in hoe je content getoond wordt, naast elkaar op een groot scherm, onder elkaar op mobiel. Verwijzen naar een plaatje links van je tekst kan niet altijd meer. Op kleinere schermen staat dit plaatje misschien wel onder je tekst.
+
+## Presentatie - structuur
+
+Die tekst die je zojuist mooi hebt opgemaakt, dat is ook een goede hulp voor je ontwerper. Als je gebruik hebt gemaakt van een goede kopstructuur en de juiste elementen voor de juiste zaken dan heb je al flink wat werk gedaan.
+
+Stel je voor dat je een boek koopt, als je het opent zie je dat er geen inhoudsopgave in staat. Verder nog, als je verder bladert zie je dat alle tekst gelijk is opgemaakt. 12 punts in helvetica, pagina na pagina. Zo is een pagina zonder een header structuur voor iemand met een screenreader.
+
+Zie hier een [video van een presentatie](https://www.youtube.com/watch?v=NexL5_Vdoq8) over correcte opmaak. 
+
+**Dit artikel is nog niet af**
 
