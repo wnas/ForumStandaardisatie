@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Presentatie - toegankelijkheidsverklaring"
-date:   2021-15-10 09:24:14 +0200
+date:   2021-11-10 09:24:14 +0200
 categories: presentatie toegankelijkheidsverklaring
 ---
 
