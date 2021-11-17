@@ -17,8 +17,6 @@ Bij deze punten is een actie van de leverancier nodig, code moet worden verbeter
 
 ### 1.1.1 niet tekstuele content
 
-Op de homepagina staat een logo. Deze afbeelding heeft geen alt-attribuut, maar wel een title-attribuut met ‘Standaarden forumstandaardisatie’. Het title-attribuut op een afbeelding die met een img-element is toegevoegd is niet genoeg als tekstalternatief. Er is nog steeds het alt-attribuut nodig op dit soort afbeeldingen. Het vervangen van het title-attribuut door een alt-attribuut is een optie. Zie https://data.forumstandaardisatie.nl/ en https://data.forumstandaardisatie.nl/fs/standaarden.
-
 De grafiek op pagina
 https://data.forumstandaardisatie.nl/fs/standaarden/insights/classHierarchy?type=bubbles
 heeft geen tekstalternatief. Dit geldt voor alle weergaven van deze grafiek, zie bijvoorbeeld https://data.forumstandaardisatie.nl/fs/standaarden/insights/classHierarchy?type=treemap.
@@ -99,9 +97,8 @@ Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classFreq
 
 Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classHierarchy? type=bubbles komt het id met waarde ‘Icons’ meer dan eens voor. Wanneer id’s meerdere keren op een pagina voorkomen kan hulpsoftware de code niet goed interpreteren. Dit komt ook op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classHierarchy?type=treemap voor.
 
-Het logo in de linkerbovenhoek van de website fungeert als een link. De link bevat een button-element. Dit is geen correcte nesting van de HTML-elementen en kan voor interpretatieproblemen zorgen tijdens het voorlezen van deze pagina door hulpsoftware. Zie https://data.forumstandaardisatie.nl/.
 
-### 4.1.2 
+### 4.1.2 Naam, rol, waarde
 
 In de header van de website staat een invoerveld om te zoeken op deze website. Dit invoerveld heeft geen toegankelijke naam. Een placeholdertekst is niet genoeg als een naam voor en input-element. Zie https://data.forumstandaardisatie.nl/.
 
@@ -153,6 +150,10 @@ Op pagina https://data.forumstandaardisatie.nl/login?returnTo=%2Ffs%2Fstandaarde
 
 
 Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/table staan vier invoervelden. Als op een van de titels van de files onder deze invoervelden wordt geklikt, verschijnt de titel in het invoerveld onder ‘Subject’. Het invoerveld krijgt een icoon met een kruisje. Dit icoon dient als een knop om de invoer te wissen. Dit interactieve svg-element is niet toetsenbordtoegankelijk.
+
+### 4.1.1 Parsen
+
+Het logo in de linkerbovenhoek van de website fungeert als een link. De link bevat een button-element. Dit is geen correcte nesting van de HTML-elementen en kan voor interpretatieproblemen zorgen tijdens het voorlezen van deze pagina door hulpsoftware. Zie https://data.forumstandaardisatie.nl/.
 
 ### 4.1.2 Naam, rol, waarde
 
