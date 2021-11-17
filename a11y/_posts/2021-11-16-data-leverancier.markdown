@@ -80,6 +80,51 @@ Er is geen mechanisme om terugkerende blokken met links over te slaan. In de mee
 
 Op sommige interactieve elementen van deze website is de focus niet zichtbaar. Als de website bekeken wordt op kleine schermen, dan is de focus niet zichtbaar op het logo, het zoekicoon en de knop “Login”. Verderop de homepagina is de focus niet zichtbaar op de twee afbeeldingen die als links fungeren. In de footer is de focus onzichtbaar op alle links. Het menu in de linker kolom op pagina https://data.forumstandaardisatie.nl/fs/standaarden/sparql/standaarden bevat links waar de focus niet zichtbaar is.
 
+### 3.1.2 Taal van onderdelen
+
+
+Op deze website komen regelmatig Nederlandse teksten voor. Voor alle teksten die niet in dezelfde taal zijn als de taal van de pagina, die op het html-element staat aangegeven, geldt dat ze een taalwissel dienen te krijgen. Deze teksten dienen in het Engels te worden vertaald of een taalwissel te krijgen. Zonder taalwissel worden deze teksten voorgelezen met de Engelse uitspraakregels. Het gaat hier niet om enkele woorden of verschillende technische termen. Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/graphs gaat het bijvoorbeeld om teksten als “41 statements Uploaded 8 hours ago”. Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/services gaat het bijvoorbeeld om te tekst “This service is outdated due to dataset changes.”, “8 months ago” en dergelijke. De teksten in de footer zijn ook allemaal in een andere taal geschreven. Een losse link als “About” is niet direct en probleem onder dit succescriterium, maar doordat deze link deel uitmaakt van een volledig Engelse footer is dat hier wel een probleem. Het advies is om deze teksten te vertalen naar het Nederlands, maar een taalwisseling kan natuurlijk ook.
+
+### 3.2.2 Bij input
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classFrequency? graph=https%3A%2F%2Fdata.forumstandaardisatie.nl%2Ffs%2Fstandaarden%2Fgraphs %2Fdefault-3 staat een input-element met type=”text” die werkt als een keuzelijst in plaats als een invoerveld voor tekst. Het activeren van een van de opties geldt als het aanpassen van de instelling van een component van de gebruikersinterface en die actie mag dus geen contextwijziging veroorzaken. De toetsenbordfocus wordt op dat moment verplaatst en die verandering geldt als een contextwijziging. Het activeren van een knop of link geldt niet als het veranderen van de instelling van een component van de gebruikersinterface.
+
+### 3.3.2 Labels of instructies
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/browser?resource=https %3A%2F%2Fdata.forumstandaardisatie.nl%2Ffs%2Fstandaarden%2Fid%2Fwaarde %2FAanbevolen&focus=backward onder de blauwe header staat een invoerveld zonder label. Er is geen tekst of afbeelding aanwezig die suggereert wat dit invoerveld doet.
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classFrequency? graph=https%3A%2F%2Fdata.forumstandaardisatie.nl%2Ffs%2Fstandaarden%2Fgraphs %2Fdefault-3, onder de blauwe header, staat een invoerveld. Dit veld heeft geen label.
+
+### 4.1.1 Parsen
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classHierarchy? type=bubbles komt het id met waarde ‘Icons’ meer dan eens voor. Wanneer id’s meerdere keren op een pagina voorkomen kan hulpsoftware de code niet goed interpreteren. Dit komt ook op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classHierarchy?type=treemap voor.
+
+Het logo in de linkerbovenhoek van de website fungeert als een link. De link bevat een button-element. Dit is geen correcte nesting van de HTML-elementen en kan voor interpretatieproblemen zorgen tijdens het voorlezen van deze pagina door hulpsoftware. Zie https://data.forumstandaardisatie.nl/.
+
+### 4.1.2 
+
+In de header van de website staat een invoerveld om te zoeken op deze website. Dit invoerveld heeft geen toegankelijke naam. Een placeholdertekst is niet genoeg als een naam voor en input-element. Zie https://data.forumstandaardisatie.nl/.
+
+Op de homepagina staat een zoekbalk op de grote afbeelding. Het invoerveld heeft geen label die in de code gebonden is met dit invoerveld. Dit invoerveld heeft dus geen toegankelijke naam. De knop die ernaast staat heeft ook geen toegankelijke naam. Zie https://data.forumstandaardisatie.nl/.
+
+Als de website bekeken wordt op kleine schermen, wordt het invoerveld in de header vervangen door een icoon met een vergrootglas. Deze afbeelding dient als een knop om de zoekfunctie te openen. Deze afbeelding is verborgen van hulpsoftware met aria- hidden=’true’ en heeft geen rol en geen naam. Hulpsoftware kan niet aan de gebruiker vertellen dat dit een knop is. Zie https://data.forumstandaardisatie.nl/.
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/sparql/standaarden boven het tekstvak waar de code kan worden ingevoerd, staat een knop met ‘Query x’. Deze knop is niet met toetsenbord te bedienen. Daarnaast staat en knop met een plusje erop. Deze knop heeft geen juiste rol.
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classHierarchy? type=bubbles staat een element met role=”tablist”. Die rol maakt van de div een component van de gebruikersinterface en die moet daarom dan ook een naam hebben. Het advies is om er ook voor te zorgen dat de bediening en dergelijke van deze tablist werkt zoals gebruikelijk is. Zie https://www.w3.org/TR/wai-aria-practices-1.2/#tabpanel voor meer informatie over hoe een WAI-ARIA tablist toegepast hoort te worden.
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/services tegenover ‘Loaded graphs’ staat een icoon van een pijl. Dit is een knop die verborgen content toont. Deze knop heeft geen juiste rol. De status van het verborgen deel (open of dicht) is evenmin aangegeven. Dit kan door middel van aria-expanded=’true’ of ‘false’.
+
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/insights/classFrequency? graph=https%3A%2F%2Fdata.forumstandaardisatie.nl%2Ffs%2Fstandaarden%2Fgraphs %2Fdefault-3, onder de blauwe header, staat een invoerveld. Dit veld heeft geen toegankelijke naam.
+
+### 4.1.3 Statusberichten
+
+Op pagina https://data.forumstandaardisatie.nl/search/datasets?q=data is het mogelijk om een zoekopdracht uit te voeren. Als er geen resultaten gevonden zijn komt de tekst “No datasets found” in beeld. Die foutmelding geldt als statusbericht en moet gepresenteerd worden aan gebruikers van hulpsoftware. Dit type probleem komt ook voor bij de foutmeldingen op https://data.forumstandaardisatie.nl/login?returnTo=%2Ffs %2Fstandaarden%2Fbrowser%3Fresource%3Dhttps%253A%252F %252Fdata.forumstandaardisatie.nl%252Ffs%252Fstandaarden%252Fid%252Fwaarde %252FAanbevolen.
+
+Een statusbericht is een bericht dat een verandering van content maar geen contextwijziging (zoals het verplaatsen van de toetsenbordfocus naar de tekst van de melding) is en dat informatie geeft aan de gebruiker over het succes of de resultaten van een actie, over de wachtstatus van een applicatie, over de voortgang van een proces of over eventuele fouten.
+Bij het zoeken met één of meer resultaten komt tekst in beeld die informatie geeft over het succes of de resultaten van die actie. De links “Datasets (1)” tot en met “Accounts (0)” veranderen en moeten opgemaakt worden als statusberichten, bijvoorbeeld aria- live=”polite” op ieder van deze links. Op foutmeldingen kan dan aria-live=”assertive” of role=”alert” gebruikt worden om deze op te maken als statusberichten. Let op: het attribuut role verandert de rol van een element voor succescriterium 4.1.2: Naam, rol, waarde. (een a-element met role=”alert” heeft niet de langer de rol link.) Belangrijk is ook dat de elementen met deze attributen aanwezig zijn in de DOM bij het laden van de pagina. Zie https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html voor meer informatie over dit succescriterium en zie pagina https://www.w3.org/WAI/WCAG21/Techniques/failures/F103 voor meer informatie over de redenen waarom dit afgekeurd is.
+
 ## Opgelost
 
 ### 1.1.1 niet tekstuele content
@@ -108,3 +153,17 @@ Op pagina https://data.forumstandaardisatie.nl/login?returnTo=%2Ffs%2Fstandaarde
 
 
 Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/table staan vier invoervelden. Als op een van de titels van de files onder deze invoervelden wordt geklikt, verschijnt de titel in het invoerveld onder ‘Subject’. Het invoerveld krijgt een icoon met een kruisje. Dit icoon dient als een knop om de invoer te wissen. Dit interactieve svg-element is niet toetsenbordtoegankelijk.
+
+### 4.1.2 Naam, rol, waarde
+
+Het logo in de linkerbovenhoek van de website fungeert als een link. Deze link heeft geen naam. Omdat dit een bedieningselement is, moet de naam de functie van het element beschrijven. Zie https://data.forumstandaardisatie.nl/.
+
+In de footer van de website staan twee links met iconen van Twitter en Github. Deze links bevatten afbeeldingen zonder tekstalternatief en hebben verder geen content. Deze links hebben geen toegankelijke namen. Zie https://data.forumstandaardisatie.nl/.
+
+Als de website bekeken wordt op kleine schermen, verschijnt op alle pagina’s behalve de homepagina, de zogenaamde ‘hamburger’ knop (drie horizontale streepjes). Deze knop heeft geen naam en geen rol. Hulpsoftware ziet alleen de afbeelding, maar kan niet aan de gebruiker vertellen dat dit een knop is en wat deze knop doet. Deze knop opent een zijpaneel waar de navigatie in zit. Deze knop de status van het zijpaneel niet aan (open of dicht). Zie bijvoorbeeld https://data.forumstandaardisatie.nl/fs/standaarden/browser? resource=https%3A%2F%2Fdata.forumstandaardisatie.nl%2Ffs%2Fstandaarden%2Fid %2Fwaarde%2FAanbevolen.
+
+Midden op de pagina https://data.forumstandaardisatie.nl/fs/standaarden/browser? resource=https%3A%2F%2Fdata.forumstandaardisatie.nl%2Ffs%2Fstandaarden%2Fid %2Fwaarde%2FAanbevolen, tegenover de kop ‘Aanbevolen’ staat een afbeelding met ‘<’ erop die als een knop fungeert. Deze knop is niet in de code als knop te herkennen omdat het de juiste rol en naam mist.
+
+Op pagina https://data.forumstandaardisatie.nl/fs/standaarden/table staan vier invoervelden zonder toegankelijke namen. Als op een van de titels van de files wordt geklikt, verschijnt de titel in het invoerveld onder ‘Subject’. Het invoerveld krijgt een icoon met een kruisje. Dit icoon dient als een knop om de invoer te wissen. Deze knop heeft geen juiste rol (‘button’) en geen naam.
+
+In het formulier op pagina https://data.forumstandaardisatie.nl/login?returnTo=%2Ffs %2Fstandaarden%2Fbrowser%3Fresource%3Dhttps%253A%252F %252Fdata.forumstandaardisatie.nl%252Ffs%252Fstandaarden%252Fid%252Fwaarde %252FAanbevolen staat een afbeelding van een oog. Deze afbeelding fungeert als een knop. Deze rol is niet aan de hulpsoftware gecommuniceerd.
