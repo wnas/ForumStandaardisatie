@@ -5,7 +5,7 @@ date:   2021-11-10 09:24:14 +0200
 categories: presentatie toegankelijkheidsverklaring
 ---
 
-## Toegankelijkheidsverklaring
+# Toegankelijkheidsverklaring
 
 Wat is de toegankelijkheidsverklaring en voor wie maken we deze.
 
