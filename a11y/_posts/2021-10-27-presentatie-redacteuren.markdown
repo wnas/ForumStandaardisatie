@@ -85,9 +85,9 @@ Dit zorgt voor een grote variatie in hoe je content getoond wordt, naast elkaar 
 
 Die tekst die je zojuist mooi hebt opgemaakt, dat is ook een goede hulp voor je ontwerper. Als je gebruik hebt gemaakt van een goede kopstructuur en de juiste elementen voor de juiste zaken dan heb je al flink wat werk gedaan.
 
-Stel je voor dat je een boek koopt, als je het opent zie je dat er geen inhoudsopgave in staat. Verder nog, als je verder bladert zie je dat alle tekst gelijk is opgemaakt. 12 punts in helvetica, pagina na pagina. Zo is een pagina zonder een header structuur voor iemand met een screenreader.
+Waarom is de kopstructuur zo belangrijk? Stel je voor dat je een boek koopt, als je het opent zie je dat er geen inhoudsopgave in staat. Verder nog, als je verder bladert zie je dat alle tekst gelijk is opgemaakt. 12 punts in helvetica, pagina na pagina. Zo is een pagina zonder een header structuur voor iemand met een screenreader. Je hebt geen mogelijkheid om snel een pagina te scannen en zo direct relevante informatie te vinden.
 
 Zie hier een [video van een presentatie](https://www.youtube.com/watch?v=NexL5_Vdoq8) over correcte opmaak. 
 
-**Dit artikel is nog niet af**
+
 
