@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Status update, stand van zaken eind 2021"
+date:   2021-12-15 09:20:14 +0200
+categories: forumstandaardisatie 
+---
+
+# Statusupdate
+
+## work in progress!
+
+Het afgelopen jaar hebben we al flinke stappen gezet in de gang naar volledig digitaal toegankelijk forum websites. Waar staan we nu, eind 2021 en waar verwachten we te komen zomer 2022.
+
+## Gab.pleio.nl
+
+Deze site heeft nu status **b** maar gaat 1 januari 2022 offline. Hier hoeven we niets meer aan te doen.
+
+## Bom.pleio.nl
+
+Er staan nog 3 issues open bij de leverancier.
+
+## digitoegankelijk.pleio.nl
+
+Er staan nog 3 issues open bij de leverancier.
+
+## maglr.forumstandaardisatie.nl
+
+Er staan nog meerdere issues open bij de leverancier. Op termijn worden de magazines naar html omgeschreven.
+
+## data.forum

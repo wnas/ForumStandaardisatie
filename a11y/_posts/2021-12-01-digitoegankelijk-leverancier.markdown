@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "digitaaltoegankelijk.pleio.nl - acties leverancier"
-date:   2021-12-01 11:50:14 +0200
+date:   2021-12-15 11:50:14 +0200
 categories: digitoegankelijk leverancier
 ---
 
@@ -21,17 +21,17 @@ Hieronder worden de issues uit het onderzoek van Swink genoemd die voortkomen ui
 ### 1.3.1 Info en relaties
 Bevinding 8 : De kolom 'naam' in de tabel op de pagina met bestanden heeft als toegankelijke naam 'Sorteer op naam'. Screenreadergebruikers krijgen dus bij elk item in die kolom eerst 'Sorteer op naam (oplopend/aflopend)' te horen. Dit is verwarrend aangezien gebruikers in de rijen van de bestanden niet meer kunnen sorteren op naam. Dit kan wellicht met ARIA worden opgelost.
 
-> https://gitlab.com/pleio/beheer/-/issues/8717
+[issue 8717](https://gitlab.com/pleio/beheer/-/issues/8717)
 
 Bevinding 10: De namen van de groepen op pagina digitaaltoegankelijk.pleio.nl/groups zien er als koppen uit, maar zijn niet opgemaakt als kop. Het zijn links, maar tegelijkertijd fungeert de tekst ook als kop boven de introductie tekst. Gebruik een headingselement, bijvoorbeeld h2, om dit probleem op te lossen.
 
-> https://gitlab.com/pleio/beheer/-/issues/8718
+[issue 8718](https://gitlab.com/pleio/beheer/-/issues/8718)
 
 Bevinding 12
 
 Op de wiki pagina Presentatie PDF en toegankelijkheid is de groepnaam 'Digitaal toegankelijke documenten (PDF)', linksboven van de pagina (link) opgemaakt als kop, terwijl het geen kop is.
 
-> https://gitlab.com/pleio/beheer/-/issues/8719
+[issue 8719](https://gitlab.com/pleio/beheer/-/issues/8719)
 
 
 
