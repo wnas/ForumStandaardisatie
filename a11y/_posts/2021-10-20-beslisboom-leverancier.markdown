@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Beslisboom - acties leverancier"
-date:   2021-10-20 09:20:14 +0200
+date:   2022-01-12 13:20:14 +0200
 categories: beslisboom leverancier
 ---
 
@@ -17,7 +17,7 @@ Cardan technobility, Marijn Brilman en Gerard Copinga op 28 juni 2021.
 
 ### 1.1.1 Niet tekstuele content
 
-Bovenaan de [pagina](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) staat het logo van de Rijksoverheid. Deze afbeelding heeft een goede alternatieve tekst. Het div-element waar deze afbeelding in staat, is echter verborgen met aria-hidden=”true”. Hierdoor kan hulpsoftware deze informatie niet voorlezen. Een logo is informatief en heeft daarom een alternatieve tekst nodig. 
+<!--Bovenaan de [pagina](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) staat het logo van de Rijksoverheid. Deze afbeelding heeft een goede alternatieve tekst. Het div-element waar deze afbeelding in staat, is echter verborgen met aria-hidden=”true”. Hierdoor kan hulpsoftware deze informatie niet voorlezen. Een logo is informatief en heeft daarom een alternatieve tekst nodig. -->
 
 In verschillende stappen van het proces staat er bij sommige opties een oranje symbool van de letter “i”. Dit symbool heeft geen alternatieve tekst. Er moet een alternatieve tekst komen die dezelfde informatie overbrengt als het symbool, bijvoorbeeld “Meer informatie”. Zie bijvoorbeeld bij [stap 1](https://www.forumstandaardisatie.nl/beslisboom/beslisboom- open-standaarden/step/1) bij de checkbox “Gemeente of gemeenschappelijke regeling”.
 
@@ -25,7 +25,7 @@ In [stap 8](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open- stan
 
 ### 1.3.1 info en relaties
 
-Onderaan de [pagina](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) staat boven de footer de tekst “Standaard Samenwerken”. Het div- element waar deze tekst in staat, is verborgen met aria-hidden=”true”. Hierdoor kan hulpsoftware deze informatie niet voorlezen. 
+<!--Onderaan de [pagina](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) staat boven de footer de tekst “Standaard Samenwerken”. Het div- element waar deze tekst in staat, is verborgen met aria-hidden=”true”. Hierdoor kan hulpsoftware deze informatie niet voorlezen.-->
 
 In meerdere stappen van het proces staan rechts op de pagina links naar standaarden (zie onder de kop “Relevante standaarden voor u” (bijvoorbeeld op [stap 5](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden/step/5)). Tijdens het doorlopen van de beslisboom, worden niet relevante standaarden doorgehaald. Dit is duidelijk door de visuele presentatie. Software kan dit niet bepalen. Hulpsoftware kan nu niet voorlezen welke standaarden relevant zijn en welke niet. Er zijn meerdere oplossingen mogelijk. Er kan bijvoorbeeld bij doorgehaalde links een verborgen tekst worden geplaatst die dezelfde informatie overbrengt als de presentatie.
 
@@ -46,7 +46,7 @@ In verschillende stappen van het proces staat er bij sommige opties een oranje s
 Zie bijvoorbeeld bij [stap 1](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden/step/1) bij de checkbox “Gemeente of gemeenschappelijke regeling”.
 
 Het volgende kan de toegankelijkheid nog verbeteren.
-Onder de kop “Relevante standaarden voor u” staan onder de [koppen](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) zoals “Bouw” telkens een paar links naar standaarden. Er is geen opmaak met opsommingstekens, maar het zou wel goed zijn als dit in de code als lijst wordt opgemaakt. Hulpsoftware kan dan voorlezen dat het een lijst is en hoeveel items de lijst heeft. 
+Onder de kop “Relevante standaarden voor u” staan onder de [koppen](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) zoals “Bouw” telkens een paar links naar standaarden. Er is geen opmaak met opsommingstekens, maar het zou wel goed zijn als dit in de code als lijst wordt opgemaakt. Hulpsoftware kan dan voorlezen dat het een lijst is en hoeveel items de lijst heeft.
 
 ### 1.4.4 Herschalen van tekst
 
@@ -82,8 +82,8 @@ Het zou ook beter zijn om deze content niet onder hover of focus te laten versch
 WN - pas ook op met het openen van content in een nieuw venster, zie op deze [pagina meer informatie](https://webaim.org/techniques/hypertext/hypertext_links)
 ### 2.5.3 Label in naam
 
-Links boven aan de pagina staat het broodkruimelpad. Hierin staat de link “Forum Standaardisatie”. Deze link heeft een aria-label met de waarde “Back to homepage”. Dit overschrijft de originele linktekst. Hierdoor bevat de naam van de link de zichtbare tekst niet.
-https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden
+<!-- Links boven aan de pagina staat het broodkruimelpad. Hierin staat de link “Forum Standaardisatie”. Deze link heeft een aria-label met de waarde “Back to homepage”. Dit overschrijft de originele linktekst. Hierdoor bevat de naam van de link de zichtbare tekst niet.
+https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden -->
 
 ### 4.1.2 Naam, rol, waarde
 
@@ -107,6 +107,6 @@ WN - er komen op meer plaatsen engelse teksten terug op deze nederlandse website
 
 Bij [stap 5](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden/step/5) staat er in de uitgeklapte tekst van dit oranje symbool van de “i” (bij de checkbox “Beveiliging en privacy speelt een rol bij de nieuwe voorziening”) een lijst. Deze is in de code niet opgemaakt als lijst.
 
-### 1.3.3: Zintuiglijke eigenschappen (Niveau A) 
+### 1.3.3: Zintuiglijke eigenschappen (Niveau A)
 
-In [stap 7](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden/step/7) staat onderaan de knop “Complete”. Op de pagina staat de tekst “Als u op de knop Volgende klikt, kunt u deze lijst naar uw e-mailadres toesturen.”. Er is geen knop met de tekst “Volgende”. Dit kan dus beter aangepast worden. 
+In [stap 7](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden/step/7) staat onderaan de knop “Complete”. Op de pagina staat de tekst “Als u op de knop Volgende klikt, kunt u deze lijst naar uw e-mailadres toesturen.”. Er is geen knop met de tekst “Volgende”. Dit kan dus beter aangepast worden.

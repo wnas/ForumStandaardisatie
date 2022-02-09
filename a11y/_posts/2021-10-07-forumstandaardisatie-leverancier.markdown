@@ -1,20 +1,24 @@
 ---
 layout: post
 title:  "Forum standaardisatie - acties leverancier"
-date:   2021-10-07 09:24:14 +0200
+date:   2022-01-12 13:21:14 +0200
 categories: forumstandaardisatie leverancier
 ---
 # Nog op te lossen
+
+Er is een sectie bijgekomen, de Beslisboom, deze heeft nu nog een aparte pagina met bevindingen en wordt later samengevoegd.
 
 ## 1.1.1 niet tekstuele content
 
 Op alle pagina's staat bovenaan de banner rijksoverheid. Deze afbeelding is een logo en logo’s hebben altijd betekenis en hebben daarom altijd een tekstalternatief nodig.
 
-Op alle pagina's hebben meerdere link de class ‘ext’. Het gaat onder andere om de links ‘Twitter’, ‘LinkedIn’ en ‘Archief website’. Het gebruik van deze class voegt een afbeelding toe die aangeeft dat deze link verwijst naar een externe website. Deze afbeeldingen hebben geen tekstalternatief. Dit probleem komt meer voor dat alleen op deze drie links. 
+Op alle pagina's hebben meerdere link de class ‘ext’. Het gaat onder andere om de links ‘Twitter’, ‘LinkedIn’ en ‘Archief website’. Het gebruik van deze class voegt een afbeelding toe die aangeeft dat deze link verwijst naar een externe website. Deze afbeeldingen hebben geen tekstalternatief. Dit probleem komt meer voor dat alleen op deze drie links.
 
 Let op: er staat content die verborgen is met display:none. Deze eigenschap verbergt deze content voor iedereen en dus ook voor gebruikers van hulpsoftware. Deze content op een andere manier verbergen lost dit probleem op. https://prod-dictu.forumstandaardisatie.nl/
 
 ## 1.3.1 info en relaties
+
+Onderaan de [pagina](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) staat boven de footer de tekst “Standaard Samenwerken”. Het div- element waar deze tekst in staat, is verborgen met aria-hidden=”true”. Hierdoor kan hulpsoftware deze informatie niet voorlezen.
 
 Op pagina https://www.forumstandaardisatie.nl/open-standaarden/in-behandeling staan naast de tabel drie lijsten met links en daarboven de koppen ‘Domein’, ‘Europese status (MSP) (field_europese_status_msp_)’ en ‘Trefwoorden’. Deze teksten zijn nu opgemaakt als label-elementen en de links hebben een presentatie die er door de inspringing uitziet als een lijst.
 
@@ -74,3 +78,8 @@ Pagina https://prod-dictu.forumstandaardisatie.nl/over-ons heeft met ‘Forum St
 
 Op alle pagina's staat in het hoofdmenu een knop met de zichtbare tekst ‘Menu’. Na het activeren van de knop ‘Toggle navigation’ komt een lightbox in beeld. Een lightbox (ook wel modal of dialog genoemd) heeft een aantal eisen met betrekking tot de focusvolgorde. De toetsenbordfocus mag, zolang dit venster open staat, niet op de achterliggende pagina komen. Ook moet de toetsenbordfocus eerst naar de nieuwe content gaan, voordat deze op de zoekfunctie landt. De derde eis is dat bij het sluiten van deze lightbox de toetsenbordfocus moet landen op een logische plaats; in dit geval de knop met de tekst ‘Menu’.
 https://prod-dictu.forumstandaardisatie.nl/
+
+## 2.5.3 Label in naam
+
+Links boven aan de pagina staat het broodkruimelpad. Hierin staat de link “Forum Standaardisatie”. Deze link heeft een aria-label met de waarde “Back to homepage”. Dit overschrijft de originele linktekst. Hierdoor bevat de naam van de link de zichtbare tekst niet.
+https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden

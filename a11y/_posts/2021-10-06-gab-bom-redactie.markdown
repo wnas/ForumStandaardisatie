@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Gab en Bom - acties redactie"
-date:   2021-10-06 13:24:14 +0200
+date:   2022-1-17 09:24:14 +0200
 categories: gab bom redactie
 ---
 Uit het rapport van Cardan kwamen een aantal zaken die Forum zelf moet oppakken. Deze zijn als volgt
 
-
+<!--
 # 1.3.1 info en relaties
 
 Hieronder staat een lijst met links. Deze links kunnen in een (ongenummerde) lijst worden geplaatst.
@@ -26,7 +26,7 @@ WN - maak gebruik van een lijst element in de editor. ook andere elementen kunne
 Het volgende is niet fout maar kan wel verbeterd worden. Op pagina
 https://gab.pleio.nl/news/view/1d567829-7206-4ab9-814c-b68413f9e5c9/nieuwe- harmonisatievoorstellen-geaccordeerd staan teksten die onderstreept zijn. Het is best practice om onderstreepte tekst alleen te gebruiken voor links. Een onderstreepte tekst die geen link is, kan verwarrend werken voor bezoekers van de website.
 
-WN - zorg ervoor dat je je gebruikers niet in verwarring brengt.
+WN - zorg ervoor dat je je gebruikers niet in verwarring brengt.-->
 
 # 1.4.3: Contrast (minimum) (Niveau AA)
 

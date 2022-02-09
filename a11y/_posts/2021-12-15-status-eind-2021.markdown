@@ -2,7 +2,7 @@
 layout: post
 title:  "Status update, stand van zaken eind 2021"
 date:   2021-12-15 09:20:14 +0200
-categories: forumstandaardisatie 
+categories: forumstandaardisatie
 ---
 
 # Statusupdate
@@ -18,6 +18,8 @@ Deze site heeft nu status **b** maar gaat 1 januari 2022 offline. Hier hoeven we
 ## Bom.pleio.nl
 
 Er staan nog 3 issues open bij de leverancier.
+
+Pleio hoopt eind februari alles opgelost te hebben, daarna kunnen we weer een test uit laten voren, als content issues zijn opgelost.
 
 ## digitoegankelijk.pleio.nl
 
