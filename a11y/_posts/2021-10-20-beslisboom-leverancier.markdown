@@ -82,8 +82,8 @@ Het zou ook beter zijn om deze content niet onder hover of focus te laten versch
 WN - pas ook op met het openen van content in een nieuw venster, zie op deze [pagina meer informatie](https://webaim.org/techniques/hypertext/hypertext_links)
 ### 2.5.3 Label in naam
 
-<!-- Links boven aan de pagina staat het broodkruimelpad. Hierin staat de link “Forum Standaardisatie”. Deze link heeft een aria-label met de waarde “Back to homepage”. Dit overschrijft de originele linktekst. Hierdoor bevat de naam van de link de zichtbare tekst niet.
-https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden -->
+ Links boven aan de pagina staat het broodkruimelpad. Hierin staat de link “Forum Standaardisatie”. Deze link heeft een aria-label met de waarde “Back to homepage”. Dit overschrijft de originele linktekst. Hierdoor bevat de naam van de link de zichtbare tekst niet.
+https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden 
 
 ### 4.1.2 Naam, rol, waarde
 

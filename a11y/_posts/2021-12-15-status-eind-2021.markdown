@@ -21,12 +21,22 @@ Er staan nog 3 issues open bij de leverancier.
 
 Pleio hoopt eind februari alles opgelost te hebben, daarna kunnen we weer een test uit laten voren, als content issues zijn opgelost.
 
+Content issues zijn een probleem, aangezien er veel content van derden komt. Zaak is om van de externe leveranciers, als ze overheid zijn, toegankelijke content te vragen.
+
 ## digitoegankelijk.pleio.nl
 
 Er staan nog 3 issues open bij de leverancier.
 
 ## maglr.forumstandaardisatie.nl
 
-Er staan nog meerdere issues open bij de leverancier. Op termijn worden de magazines naar html omgeschreven.
+Er staan nog meerdere issues open bij de leverancier. Op termijn worden de magazines naar html omgeschreven. 
 
 ## data.forum
+
+## beslisboom.forumstandaardisatie.nl
+
+Opgeheven.
+
+## forumstandaardisatie.nl
+
+is er bij gekomen, beslisboom issus moeten nog worden verwerkt...
