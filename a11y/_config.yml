@@ -22,7 +22,7 @@ title: Accessibility | Forum standaardisatie
 email: wilfred@wnas.nl
 description: >- # this means to ignore newlines until "baseurl:"
   documenten en verslagen voor forum Standaardisatie
-baseurl: "forumstandaardisatie" # the subpath of your site, e.g. /forumstandaardisatie
+baseurl: "/forumstandaardisatie" # the subpath of your site, e.g. /forumstandaardisatie
 url: "https://wnas.nl" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wnas
 github_username:  wnas

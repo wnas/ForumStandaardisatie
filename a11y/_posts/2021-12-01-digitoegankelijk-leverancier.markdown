@@ -18,6 +18,9 @@ Swink.
 Issues die in het Pleio platform moeten worden opgelost
 
 Hieronder worden de issues uit het onderzoek van Swink genoemd die voortkomen uit de functionaliteit van het Pleio platform. Vermoedelijk is een groot deel van deze issues al opgelost.
+
+
+## Opgelost
 ### 1.3.1 Info en relaties
 Bevinding 8 : De kolom 'naam' in de tabel op de pagina met bestanden heeft als toegankelijke naam 'Sorteer op naam'. Screenreadergebruikers krijgen dus bij elk item in die kolom eerst 'Sorteer op naam (oplopend/aflopend)' te horen. Dit is verwarrend aangezien gebruikers in de rijen van de bestanden niet meer kunnen sorteren op naam. Dit kan wellicht met ARIA worden opgelost.
 
@@ -32,12 +35,6 @@ Bevinding 12
 Op de wiki pagina Presentatie PDF en toegankelijkheid is de groepnaam 'Digitaal toegankelijke documenten (PDF)', linksboven van de pagina (link) opgemaakt als kop, terwijl het geen kop is.
 
 [issue 8719](https://gitlab.com/pleio/beheer/-/issues/8719)
-
-
-
-## Opgelost
-
-### 1.3.1 info en relaties
 
 Bevinding 14
 

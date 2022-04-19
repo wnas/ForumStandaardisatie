@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Status update, stand van zaken eind 2021"
-date:   2021-12-15 09:20:14 +0200
+title:  "Status update, stand van zaken"
+date:   2022-02-09 09:20:14 +0200
 categories: forumstandaardisatie
 ---
 
@@ -27,7 +27,7 @@ Content issues zijn een probleem, aangezien er veel content van derden komt. Zaa
 
 Er staan nog 3 issues open bij de leverancier.
 
-## maglr.forumstandaardisatie.nl
+## magazine.forumstandaardisatie.nl
 
 Er staan nog meerdere issues open bij de leverancier. Op termijn worden de magazines naar html omgeschreven. 
 
@@ -40,3 +40,5 @@ Opgeheven.
 ## forumstandaardisatie.nl
 
 is er bij gekomen, beslisboom issus moeten nog worden verwerkt...
+
+

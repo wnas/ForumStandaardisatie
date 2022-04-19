@@ -1,10 +1,6 @@
----
-layout: page
-title: About
-permalink: /about/
----
 
-# Toegankelijkheid bij Forum voor Standaardisatiehh
+
+# Toegankelijkheid bij Forum voor Standaardisatie
 
 Voor een aantal websites van forum Standaardisatie zijn toegankelijkheidsonderzoeken gedaan.
 
